@@ -1,20 +1,25 @@
-Developed a Haskell-based simulation of Texas Hold'em Poker, showcasing proficiency in functional programming, game logic design, and algorithmic strategies. Key highlights include:
+Developed a comprehensive Haskell-based simulation of Texas Hold'em Poker, demonstrating advanced functional programming, game theory, and algorithmic skills. Key highlights include:
+
 Game Mechanics:
-Simulated all stages of a poker game, including Pre-Flop, Flop, Turn, and River, with dynamic betting and player interactions.
-Implemented realistic game rules, including blinds, hand evaluations, and pot sharing among winners.
-Designed behavior models for various player strategies: Random, Passive, Aggressive, Smart, and Human.
+
+Simulated all phases of a no-limit Texas Hold'em game: Pre-Flop, Flop, Turn, and River.
+Supported human and AI-driven players with configurable behaviors: Random, Passive, Aggressive, and Smart.
+Implemented realistic betting rounds, including blinds, raises, and pot distribution.
+Player and Strategy Design:
+
+Designed data types for players, cards, and game states, ensuring modular and extensible architecture.
+Created decision-making algorithms for AI players, incorporating strategies based on betting history, hand evaluation, and community cards.
 Technical Implementation:
-Data Modeling: Represented cards, players, and game states using Haskell data types and algebraic structures.
-Functional Programming:
-Created pure and impure functions for modular gameplay logic, ensuring maintainability.
-Used list comprehensions and higher-order functions for operations like shuffling and evaluating hands.
-Hand Evaluation:
-Built a ranking system for poker hands (e.g., Straight, Flush, Full House).
-Incorporated decision-making algorithms to handle complex game scenarios.
-Scalability and Extensibility:
-Configured dynamic player creation with customizable strategies and adjustable game parameters.
-Supported simulations with up to 10 players, with logic to handle edge cases such as ties and bankruptcies.
+
+Used Haskell's type system for modeling game entities and ensuring correctness.
+Integrated IO operations to handle player actions, game progression, and real-time updates.
+Implemented efficient algorithms for deck shuffling, hand evaluation, and winner determination.
+Testing and Simulations:
+
+Ran large-scale simulations (1,000+ games) to evaluate AI strategies and overall game logic.
+Analyzed results to refine AI behaviors and improve strategy performance.
 Interactive Features:
-Provided console-based visual feedback with intuitive separators and formatted outputs for game events.
-Allowed human player participation alongside AI-driven players.
-This project demonstrates a strong grasp of Haskell, algorithm design, and practical applications of functional programming in game development.
+
+Console-based interface for human player participation, enabling name customization and decision-making in real-time.
+Configurable game setup to specify the number and type of AI players.
+This project showcases expertise in functional programming, algorithm design, and software engineering for game simulations.
